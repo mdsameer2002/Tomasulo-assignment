@@ -1,0 +1,171 @@
+{
+  "issue_width": 4,
+  "cycles": 22,
+  "committed": 4,
+  "mispredictions": 0,
+  "memory_replays": 1,
+  "registers": {
+    "R0": 0,
+    "R1": 0,
+    "R2": 0,
+    "R3": 0,
+    "R4": 0,
+    "R5": 0,
+    "R6": 0,
+    "R7": 0,
+    "R8": 0,
+    "R9": 0,
+    "R10": 8,
+    "R11": 0,
+    "R12": 0,
+    "R13": 0,
+    "R14": 0,
+    "R15": 0,
+    "R16": 0,
+    "R17": 0,
+    "R18": 0,
+    "R19": 0,
+    "R20": 0,
+    "R21": 0,
+    "R22": 0,
+    "R23": 0,
+    "R24": 0,
+    "R25": 0,
+    "R26": 0,
+    "R27": 0,
+    "R28": 0,
+    "R29": 0,
+    "R30": 0,
+    "R31": 0,
+    "F0": 0,
+    "F1": 2.0,
+    "F2": 3.0,
+    "F3": 4.0,
+    "F4": 2.0,
+    "F5": 4.0,
+    "F6": 0,
+    "F7": 0,
+    "F8": 0,
+    "F9": 0,
+    "F10": 0,
+    "F11": 0,
+    "F12": 0,
+    "F13": 0,
+    "F14": 0,
+    "F15": 0,
+    "F16": 0,
+    "F17": 0,
+    "F18": 0,
+    "F19": 0,
+    "F20": 0,
+    "F21": 0,
+    "F22": 0,
+    "F23": 0,
+    "F24": 0,
+    "F25": 0,
+    "F26": 0,
+    "F27": 0,
+    "F28": 0,
+    "F29": 0,
+    "F30": 0,
+    "F31": 0
+  },
+  "memory": {
+    "8": 2.0
+  },
+  "instructions": [
+    {
+      "tag": 0,
+      "pc": 0,
+      "instruction": "Addi R10 R0 8",
+      "issue": 1,
+      "ex": [
+        2,
+        8
+      ],
+      "mem": [],
+      "wb": 9,
+      "commit": 10,
+      "squashed": false
+    },
+    {
+      "tag": 1,
+      "pc": 4,
+      "instruction": "Sd F1 0(R10)",
+      "issue": 1,
+      "ex": [
+        10,
+        10
+      ],
+      "mem": [
+        11,
+        13
+      ],
+      "wb": null,
+      "commit": 13,
+      "squashed": false
+    },
+    {
+      "tag": 2,
+      "pc": 8,
+      "instruction": "Ld F4 8(R0)",
+      "issue": 1,
+      "ex": [
+        2,
+        2
+      ],
+      "mem": [
+        3,
+        5
+      ],
+      "wb": 6,
+      "commit": null,
+      "squashed": true
+    },
+    {
+      "tag": 3,
+      "pc": 12,
+      "instruction": "Add.d F5 F4 F4",
+      "issue": 1,
+      "ex": [
+        7,
+        9
+      ],
+      "mem": [],
+      "wb": null,
+      "commit": null,
+      "squashed": true
+    },
+    {
+      "tag": 4,
+      "pc": 8,
+      "instruction": "Ld F4 8(R0)",
+      "issue": 12,
+      "ex": [
+        13,
+        13
+      ],
+      "mem": [
+        14,
+        16
+      ],
+      "wb": 17,
+      "commit": 18,
+      "squashed": false
+    },
+    {
+      "tag": 5,
+      "pc": 12,
+      "instruction": "Add.d F5 F4 F4",
+      "issue": 12,
+      "ex": [
+        18,
+        20
+      ],
+      "mem": [],
+      "wb": 21,
+      "commit": 22,
+      "squashed": false
+    }
+  ]
+}

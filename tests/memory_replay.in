@@ -1,0 +1,12 @@
+# RS, EX cycles, [MEM cycles], FU count
+Integer adder 8 7 1
+FP adder 8 3 1
+FP multiplier 8 6 1
+Load/store unit 8 1 3 1
+ROB entries = 32
+F1=2.0, F2=3.0, F3=4.0
+Mem[8]=99
+Addi R10 R0 8
+Sd F1 0(R10)
+Ld F4 8(R0)
+Add.d F5 F4 F4

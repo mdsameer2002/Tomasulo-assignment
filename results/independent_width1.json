@@ -1,0 +1,244 @@
+{
+  "issue_width": 1,
+  "cycles": 20,
+  "committed": 12,
+  "mispredictions": 0,
+  "memory_replays": 0,
+  "registers": {
+    "R0": 0,
+    "R1": 0,
+    "R2": 0,
+    "R3": 0,
+    "R4": 0,
+    "R5": 0,
+    "R6": 0,
+    "R7": 0,
+    "R8": 0,
+    "R9": 0,
+    "R10": 0,
+    "R11": 0,
+    "R12": 0,
+    "R13": 0,
+    "R14": 0,
+    "R15": 0,
+    "R16": 0,
+    "R17": 0,
+    "R18": 0,
+    "R19": 0,
+    "R20": 0,
+    "R21": 0,
+    "R22": 0,
+    "R23": 0,
+    "R24": 0,
+    "R25": 0,
+    "R26": 0,
+    "R27": 0,
+    "R28": 0,
+    "R29": 0,
+    "R30": 0,
+    "R31": 0,
+    "F0": 0,
+    "F1": 2.0,
+    "F2": 3.0,
+    "F3": 4.0,
+    "F4": 5.0,
+    "F5": 6.0,
+    "F6": 5.0,
+    "F7": 6.0,
+    "F8": 5.0,
+    "F9": 6.0,
+    "F10": 5.0,
+    "F11": 6.0,
+    "F12": 0,
+    "F13": 0,
+    "F14": 0,
+    "F15": 0,
+    "F16": 0,
+    "F17": 0,
+    "F18": 0,
+    "F19": 0,
+    "F20": 0,
+    "F21": 0,
+    "F22": 0,
+    "F23": 0,
+    "F24": 0,
+    "F25": 0,
+    "F26": 0,
+    "F27": 0,
+    "F28": 0,
+    "F29": 0,
+    "F30": 0,
+    "F31": 0
+  },
+  "memory": {},
+  "instructions": [
+    {
+      "tag": 0,
+      "pc": 0,
+      "instruction": "Add R1 R0 R0",
+      "issue": 1,
+      "ex": [
+        2,
+        3
+      ],
+      "mem": [],
+      "wb": 4,
+      "commit": 5,
+      "squashed": false
+    },
+    {
+      "tag": 1,
+      "pc": 4,
+      "instruction": "Add.d F4 F1 F2",
+      "issue": 2,
+      "ex": [
+        3,
+        5
+      ],
+      "mem": [],
+      "wb": 6,
+      "commit": 7,
+      "squashed": false
+    },
+    {
+      "tag": 2,
+      "pc": 8,
+      "instruction": "Mult.d F5 F1 F2",
+      "issue": 3,
+      "ex": [
+        4,
+        9
+      ],
+      "mem": [],
+      "wb": 10,
+      "commit": 11,
+      "squashed": false
+    },
+    {
+      "tag": 3,
+      "pc": 12,
+      "instruction": "Add R2 R0 R0",
+      "issue": 4,
+      "ex": [
+        5,
+        6
+      ],
+      "mem": [],
+      "wb": 7,
+      "commit": 12,
+      "squashed": false
+    },
+    {
+      "tag": 4,
+      "pc": 16,
+      "instruction": "Add.d F6 F1 F2",
+      "issue": 5,
+      "ex": [
+        6,
+        8
+      ],
+      "mem": [],
+      "wb": 9,
+      "commit": 13,
+      "squashed": false
+    },
+    {
+      "tag": 5,
+      "pc": 20,
+      "instruction": "Mult.d F7 F1 F2",
+      "issue": 6,
+      "ex": [
+        7,
+        12
+      ],
+      "mem": [],
+      "wb": 13,
+      "commit": 14,
+      "squashed": false
+    },
+    {
+      "tag": 6,
+      "pc": 24,
+      "instruction": "Add R3 R0 R0",
+      "issue": 7,
+      "ex": [
+        8,
+        9
+      ],
+      "mem": [],
+      "wb": 11,
+      "commit": 15,
+      "squashed": false
+    },
+    {
+      "tag": 7,
+      "pc": 28,
+      "instruction": "Add.d F8 F1 F2",
+      "issue": 8,
+      "ex": [
+        9,
+        11
+      ],
+      "mem": [],
+      "wb": 12,
+      "commit": 16,
+      "squashed": false
+    },
+    {
+      "tag": 8,
+      "pc": 32,
+      "instruction": "Mult.d F9 F1 F2",
+      "issue": 9,
+      "ex": [
+        10,
+        15
+      ],
+      "mem": [],
+      "wb": 16,
+      "commit": 17,
+      "squashed": false
+    },
+    {
+      "tag": 9,
+      "pc": 36,
+      "instruction": "Add R4 R0 R0",
+      "issue": 10,
+      "ex": [
+        11,
+        12
+      ],
+      "mem": [],
+      "wb": 14,
+      "commit": 18,
+      "squashed": false
+    },
+    {
+      "tag": 10,
+      "pc": 40,
+      "instruction": "Add.d F10 F1 F2",
+      "issue": 11,
+      "ex": [
+        12,
+        14
+      ],
+      "mem": [],
+      "wb": 15,
+      "commit": 19,
+      "squashed": false
+    },
+    {
+      "tag": 11,
+      "pc": 44,
+      "instruction": "Mult.d F11 F1 F2",
+      "issue": 12,
+      "ex": [
+        13,
+        18
+      ],
+      "mem": [],
+      "wb": 19,
+      "commit": 20,
+      "squashed": false
+    }
+  ]
+}

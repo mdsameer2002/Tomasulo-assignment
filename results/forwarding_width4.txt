@@ -1,0 +1,25 @@
+Issue width = 4
+Instruction                         ISSUE          EX         MEM     WB   COMMIT
+Mult.d F10 F1 F2                        1         2-7           -      8        9
+Sd F1 0(R0)                             1         2-2       10-12      -       12
+Sd F2 4(R0)                             1         3-3       13-15      -       15
+Ld F4 0(R0)                             1         4-4         5-5      6       16
+Ld F5 4(R0)                             2         5-5         6-6      7       17
+Add.d F6 F4 F5                          2        8-10           -     11       18
+
+REGISTER VALUES
+R0=0  R1=0  R2=0  R3=0  R4=0  R5=0  R6=0  R7=0
+R8=0  R9=0  R10=0  R11=0  R12=0  R13=0  R14=0  R15=0
+R16=0  R17=0  R18=0  R19=0  R20=0  R21=0  R22=0  R23=0
+R24=0  R25=0  R26=0  R27=0  R28=0  R29=0  R30=0  R31=0
+F0=0  F1=2  F2=3  F3=4  F4=2  F5=3  F6=5  F7=0
+F8=0  F9=0  F10=6  F11=0  F12=0  F13=0  F14=0  F15=0
+F16=0  F17=0  F18=0  F19=0  F20=0  F21=0  F22=0  F23=0
+F24=0  F25=0  F26=0  F27=0  F28=0  F29=0  F30=0  F31=0
+
+NON-ZERO MEMORY VALUES
+Address  Value
+      0  2
+      4  3
+
+Cycles: 18; committed: 6; branch mispredictions: 0; memory replays: 0
