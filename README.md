@@ -31,8 +31,8 @@ Memory uses byte addresses in a 256-byte memory. Locations that are not
 initialized have value zero. Multiple load/store units can generate addresses,
 but they still share the same memory port.
 
-`REPORT.md` and `REPORT.pdf` describe the implementation, timing rules, and
-benchmark results. The files in `tests/` are standalone test cases. The files
+`Tomasulo_Implementation_Report.pdf` describes the implementation, timing rules,
+and benchmark results. The files in `tests/` are standalone test cases. The files
 under `results/` contain the benchmark output; `summary.csv` compares all four
 issue widths. The JSON files also include instructions that were squashed.
 
